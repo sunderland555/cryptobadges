@@ -10,7 +10,7 @@ env_variables:
     # Replace user, password, database, and instance connection name with the values obtained
     # when configuring your Cloud SQL instance.
     SQLALCHEMY_DATABASE_URI: >-
-      mysql+pymysql://root:@/DATABASE?unix_socket=/cloudsql/cryptobadges-153115:us-east1:cryptobadges
+      mysql+pymysql://root:19114Theave@/DATABASE?unix_socket=/cloudsql/cryptobadges-153115:us-east1:cryptobadges
 #[END env]
 
 #[START cloudsql_settings]
